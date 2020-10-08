@@ -1,0 +1,92 @@
+object Form1: TForm1
+  Left = 450
+  Height = 564
+  Top = 171
+  Width = 1250
+  Caption = 'Form1'
+  ClientHeight = 564
+  ClientWidth = 1250
+  DesignTimePPI = 120
+  OnShow = FormShow
+  LCLVersion = '2.0.6.0'
+  object Image1: TImage
+    Left = 400
+    Height = 510
+    Top = 24
+    Width = 818
+  end
+  object editx1: TEdit
+    Left = 79
+    Height = 28
+    Top = 104
+    Width = 100
+    ParentFont = False
+    TabOrder = 0
+    Text = '15'
+  end
+  object edity1: TEdit
+    Left = 196
+    Height = 28
+    Top = 104
+    Width = 100
+    ParentFont = False
+    TabOrder = 1
+    Text = '75'
+  end
+  object editx2: TEdit
+    Left = 79
+    Height = 28
+    Top = 150
+    Width = 100
+    ParentFont = False
+    TabOrder = 2
+    Text = '45'
+  end
+  object edity2: TEdit
+    Left = 196
+    Height = 28
+    Top = 150
+    Width = 100
+    ParentFont = False
+    TabOrder = 3
+    Text = '-35'
+  end
+  object btClear: TButton
+    Left = 71
+    Height = 31
+    Top = 248
+    Width = 94
+    Caption = 'Clear'
+    OnClick = btClearClick
+    ParentFont = False
+    TabOrder = 4
+  end
+  object btGambar: TButton
+    Left = 180
+    Height = 31
+    Top = 248
+    Width = 94
+    Caption = 'Gambar'
+    OnClick = btGambarClick
+    ParentFont = False
+    TabOrder = 5
+  end
+  object ColorBox1: TColorBox
+    Left = 88
+    Height = 26
+    Top = 205
+    Width = 125
+    ItemHeight = 20
+    ParentFont = False
+    TabOrder = 6
+  end
+  object ColorBox2: TColorBox
+    Left = 239
+    Height = 26
+    Top = 205
+    Width = 125
+    ItemHeight = 20
+    ParentFont = False
+    TabOrder = 7
+  end
+end

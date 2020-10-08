@@ -1,0 +1,52 @@
+object Form_Utama: TForm_Utama
+  Left = 242
+  Height = 492
+  Top = 201
+  Width = 800
+  Caption = 'Praktikum 01 Nyoba Lazarus'
+  ClientHeight = 492
+  ClientWidth = 800
+  LCLVersion = '2.0.0.4'
+  object Image1: TImage
+    Left = 16
+    Height = 416
+    Top = 16
+    Width = 752
+  end
+  object Rectangle: TButton
+    Left = 32
+    Height = 25
+    Top = 448
+    Width = 75
+    Caption = 'Rectangle'
+    OnClick = RectangleClick
+    TabOrder = 0
+  end
+  object Ellipse: TButton
+    Left = 128
+    Height = 25
+    Top = 448
+    Width = 75
+    Caption = 'Ellipse'
+    OnClick = EllipseClick
+    TabOrder = 1
+  end
+  object Clear: TButton
+    Left = 232
+    Height = 25
+    Top = 448
+    Width = 75
+    Caption = 'Clear'
+    OnClick = ClearClick
+    TabOrder = 2
+  end
+  object ColorBox1: TColorBox
+    Left = 336
+    Height = 24
+    Top = 449
+    Width = 100
+    ItemHeight = 16
+    OnChange = ColorBox1Change
+    TabOrder = 3
+  end
+end
